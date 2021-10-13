@@ -1,0 +1,25 @@
+{
+  "id": "Backlog",
+  "name": "Backlog",
+  "version": "1.0.0",
+  "description": "Backlog",
+  "main": "index.js",
+  "author": "Takashi Kakizoe <takashikakizoe.1109@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamId}.backlog.com/dashboard",
+    "serviceName": "Backlog",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasDirectMessages": true,
+    "hasIndirectMessages": false,
+    "hasTeamId": true,
+    "hasPredefinedUrl": true,
+    "hasCustomUrl": false,
+    "urlInputSuffix": ".backlog.com",
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    }
+  }
+}
